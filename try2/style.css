@@ -1,0 +1,53 @@
+/* styles for the gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  /* styles for each individual image container */
+  .image-container {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  /* styles for the image itself */
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* styles for the upload form */
+  .upload-form {
+    margin: 20px;
+  }
+  
+  /* styles for the upload button */
+  .upload-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* styles for the error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* styles for the success message */
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
